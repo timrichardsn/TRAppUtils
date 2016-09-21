@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TRAppUtils'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TRAppUtils.'
+  s.summary          = 'Utility classes for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,10 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
+  s.description      = 'TRAppUtils contains utility classes I commonly use when developing iOS apps.'
   s.homepage         = 'https://github.com/timrichardsn/TRAppUtils'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tim Richardson' => 'tim@timrichardson.co' }
