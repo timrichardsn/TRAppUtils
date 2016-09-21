@@ -1,0 +1,6 @@
+framework module TRAppUtils {
+  umbrella header "TRAppUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

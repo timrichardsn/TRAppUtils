@@ -1,0 +1,22 @@
+{
+  "name": "TRAppUtils",
+  "version": "0.1.0",
+  "summary": "A short description of TRAppUtils.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TRAppUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tim Richardson": "tim@timrichardson.co"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TRAppUtils.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TRAppUtils/Classes/**/*"
+}

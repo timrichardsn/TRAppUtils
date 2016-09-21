@@ -1,0 +1,16 @@
+PODS:
+  - TRAppUtils (0.1.0)
+
+DEPENDENCIES:
+  - TRAppUtils (from `../`)
+
+EXTERNAL SOURCES:
+  TRAppUtils:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TRAppUtils: 06b443bd15d0103184afd21119c22b93323757b3
+
+PODFILE CHECKSUM: 425955f7d17c89a123545d841f8af64950d0db92
+
+COCOAPODS: 1.1.0.rc.2
