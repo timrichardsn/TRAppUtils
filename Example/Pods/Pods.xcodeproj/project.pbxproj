@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		0FA336DD9B1596EC8239FF60378784FD /* Pods-TRAppUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB639E35E15FECC79194BE814C006D09 /* Pods-TRAppUtils_Tests-dummy.m */; };
 		1EC1196B3FED6E0A7708C55C4E1E433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		2ECB18941D9296DB00EC32D9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB18931D9296DB00EC32D9 /* Coordinator.swift */; };
 		2F1B47619EE62735F04E1A39A8DFC2BA /* Pods-TRAppUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208E54E67159BAA94ED3E541782936DF /* Pods-TRAppUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		687BB33E90C9A6C5D14AB8EB2DE6169F /* TRAppUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B26EE56FA79D23154D60BBF5EBE17F1E /* TRAppUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7063688C3D831BE976B05BC31AF7318F /* TRAppUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA598F159404713F2783B22129DB1A /* TRAppUtils-dummy.m */; };
+		82B0B9706D008BB345220C65AE369B37 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98CD63545A35DBAF4C67076B451287A /* Coordinator.swift */; };
 		94213521B81CF3C0514A7019340423B1 /* Pods-TRAppUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583D0FB99A4334EE3B081890789EEBCA /* Pods-TRAppUtils_Example-dummy.m */; };
-		995D12942C9FD3AD5F17478580893288 /* TRAppUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA598F159404713F2783B22129DB1A /* TRAppUtils-dummy.m */; };
 		9B994511FEF0A300149917E7C27A7E4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D0823FD2C0C4E4A37390B539160B25AF /* Pods-TRAppUtils_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59E93312CEF382ACB69A699D29E400F /* Pods-TRAppUtils_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7595DC55564187035339711A5438934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -38,7 +38,6 @@
 		215DA4B2C46A5AE48AE1849DE9FCCBB9 /* Pods-TRAppUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRAppUtils_Example.modulemap"; sourceTree = "<group>"; };
 		29C265A069139BF28290C43D84A61887 /* Pods-TRAppUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRAppUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AF6880100DDC77B6A6CAFB989B1CF23 /* Pods-TRAppUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRAppUtils_Tests.modulemap"; sourceTree = "<group>"; };
-		2ECB18931D9296DB00EC32D9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3F2EA8A89AD2A1AEC7B8ECFF92927008 /* Pods-TRAppUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRAppUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		41F189A6A25BF7FE6761248FECECD7B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508A1952AA0578EF0FAA36C462DFCC12 /* TRAppUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRAppUtils-prefix.pch"; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		C59E93312CEF382ACB69A699D29E400F /* Pods-TRAppUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRAppUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CA523FCD647CA40498B0A598DA5659D6 /* Pods-TRAppUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRAppUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D98CD63545A35DBAF4C67076B451287A /* Coordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		DB0C424B127006C8037A364E1B36AFE2 /* Pods-TRAppUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRAppUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB639E35E15FECC79194BE814C006D09 /* Pods-TRAppUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRAppUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		E3A1A7962B7F724E8394E037D651F047 /* Pods_TRAppUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRAppUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +132,7 @@
 		44B025B1A1A0FE95D2EFB146F1AA6C6A /* TRAppUtils */ = {
 			isa = PBXGroup;
 			children = (
-				9E358B2CEC325F12433ECE10F5D65096 /* Classes */,
+				86528532F24916ECDA992B112AB3D903 /* Classes */,
 			);
 			path = TRAppUtils;
 			sourceTree = "<group>";
@@ -166,6 +166,14 @@
 			);
 			sourceTree = "<group>";
 		};
+		86528532F24916ECDA992B112AB3D903 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D98CD63545A35DBAF4C67076B451287A /* Coordinator.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		8CE548CABDD06D34321D0643DDAB96C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,14 +204,6 @@
 			);
 			name = "Pods-TRAppUtils_Tests";
 			path = "Target Support Files/Pods-TRAppUtils_Tests";
-			sourceTree = "<group>";
-		};
-		9E358B2CEC325F12433ECE10F5D65096 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2ECB18931D9296DB00EC32D9 /* Coordinator.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		AB2E02386D67FDD59C16E30A3AE5786A /* Development Pods */ = {
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C46E764E4EC8356489A5DDABC059A87E /* Build configuration list for PBXNativeTarget "TRAppUtils" */;
 			buildPhases = (
-				431441FDCB9A5C170E6411DA4599A67A /* Sources */,
+				2C41703DF2A7AB8F9B67197E27CE18A4 /* Sources */,
 				817F4122017DCF2201BAC6E4C4E5D35D /* Frameworks */,
 				AB9F58F130980F1386333CDD9D9BC4DB /* Headers */,
 			);
@@ -312,14 +312,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					B7D18E5330892020C5980F01FE228B58 = {
-						LastSwiftMigration = 0800;
-					};
-					F1C924953A0EA29EF2079C5AA5D5F12E = {
-						LastSwiftMigration = 0800;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,11 +333,12 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		431441FDCB9A5C170E6411DA4599A67A /* Sources */ = {
+		2C41703DF2A7AB8F9B67197E27CE18A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				995D12942C9FD3AD5F17478580893288 /* TRAppUtils-dummy.m in Sources */,
+				82B0B9706D008BB345220C65AE369B37 /* Coordinator.swift in Sources */,
+				7063688C3D831BE976B05BC31AF7318F /* TRAppUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ECB18941D9296DB00EC32D9 /* Coordinator.swift in Sources */,
 				94213521B81CF3C0514A7019340423B1 /* Pods-TRAppUtils_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,7 +374,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE095BAB1DCCCF8C93FC0E70777667CF /* Pods-TRAppUtils_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -408,7 +399,6 @@
 				PRODUCT_NAME = Pods_TRAppUtils_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -419,7 +409,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 018159E1742A699B18785E871550C916 /* Pods-TRAppUtils_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -446,7 +435,6 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -522,6 +510,38 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		862A45C646AD7FF0FBFDA32F2E9574E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D4F345A46DC4C7052711FDF657DC80 /* TRAppUtils.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TRAppUtils/TRAppUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRAppUtils/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRAppUtils/TRAppUtils.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TRAppUtils;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -607,39 +627,7 @@
 			};
 			name = Debug;
 		};
-		B56C29EEB9277A4C231875A8E1FC178C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16D4F345A46DC4C7052711FDF657DC80 /* TRAppUtils.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TRAppUtils/TRAppUtils-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TRAppUtils/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TRAppUtils/TRAppUtils.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TRAppUtils;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BC24CDC028F826A66A681D306C7C5F09 /* Debug */ = {
+		D012AEB4A7CF48706712E48B7F34FD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16D4F345A46DC4C7052711FDF657DC80 /* TRAppUtils.xcconfig */;
 			buildSettings = {
@@ -705,8 +693,8 @@
 		C46E764E4EC8356489A5DDABC059A87E /* Build configuration list for PBXNativeTarget "TRAppUtils" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC24CDC028F826A66A681D306C7C5F09 /* Debug */,
-				B56C29EEB9277A4C231875A8E1FC178C /* Release */,
+				D012AEB4A7CF48706712E48B7F34FD13 /* Debug */,
+				862A45C646AD7FF0FBFDA32F2E9574E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
