@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07B2F0E7061B5E27B4F9175BB1F98DEC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F66F6E8C6E214AD20216CA8DDEE6B7 /* ReplaceMe.swift */; };
 		0FA336DD9B1596EC8239FF60378784FD /* Pods-TRAppUtils_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB639E35E15FECC79194BE814C006D09 /* Pods-TRAppUtils_Tests-dummy.m */; };
 		1EC1196B3FED6E0A7708C55C4E1E433D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2ECB18941D9296DB00EC32D9 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB18931D9296DB00EC32D9 /* Coordinator.swift */; };
 		2F1B47619EE62735F04E1A39A8DFC2BA /* Pods-TRAppUtils_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 208E54E67159BAA94ED3E541782936DF /* Pods-TRAppUtils_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		687BB33E90C9A6C5D14AB8EB2DE6169F /* TRAppUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B26EE56FA79D23154D60BBF5EBE17F1E /* TRAppUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94213521B81CF3C0514A7019340423B1 /* Pods-TRAppUtils_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 583D0FB99A4334EE3B081890789EEBCA /* Pods-TRAppUtils_Example-dummy.m */; };
@@ -38,6 +38,7 @@
 		215DA4B2C46A5AE48AE1849DE9FCCBB9 /* Pods-TRAppUtils_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRAppUtils_Example.modulemap"; sourceTree = "<group>"; };
 		29C265A069139BF28290C43D84A61887 /* Pods-TRAppUtils_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRAppUtils_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AF6880100DDC77B6A6CAFB989B1CF23 /* Pods-TRAppUtils_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TRAppUtils_Tests.modulemap"; sourceTree = "<group>"; };
+		2ECB18931D9296DB00EC32D9 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		3F2EA8A89AD2A1AEC7B8ECFF92927008 /* Pods-TRAppUtils_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRAppUtils_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		41F189A6A25BF7FE6761248FECECD7B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508A1952AA0578EF0FAA36C462DFCC12 /* TRAppUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRAppUtils-prefix.pch"; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		C59E93312CEF382ACB69A699D29E400F /* Pods-TRAppUtils_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRAppUtils_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CA523FCD647CA40498B0A598DA5659D6 /* Pods-TRAppUtils_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRAppUtils_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D8F66F6E8C6E214AD20216CA8DDEE6B7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		DB0C424B127006C8037A364E1B36AFE2 /* Pods-TRAppUtils_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRAppUtils_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB639E35E15FECC79194BE814C006D09 /* Pods-TRAppUtils_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRAppUtils_Tests-dummy.m"; sourceTree = "<group>"; };
 		E3A1A7962B7F724E8394E037D651F047 /* Pods_TRAppUtils_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRAppUtils_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,7 +201,7 @@
 		9E358B2CEC325F12433ECE10F5D65096 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D8F66F6E8C6E214AD20216CA8DDEE6B7 /* ReplaceMe.swift */,
+				2ECB18931D9296DB00EC32D9 /* Coordinator.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -345,7 +345,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07B2F0E7061B5E27B4F9175BB1F98DEC /* ReplaceMe.swift in Sources */,
 				995D12942C9FD3AD5F17478580893288 /* TRAppUtils-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ECB18941D9296DB00EC32D9 /* Coordinator.swift in Sources */,
 				94213521B81CF3C0514A7019340423B1 /* Pods-TRAppUtils_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EE095BAB1DCCCF8C93FC0E70777667CF /* Pods-TRAppUtils_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 018159E1742A699B18785E871550C916 /* Pods-TRAppUtils_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
