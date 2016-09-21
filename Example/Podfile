@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRAppUtils_Example' do
+  pod 'TRAppUtils', :path => '../'
+
+  target 'TRAppUtils_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
